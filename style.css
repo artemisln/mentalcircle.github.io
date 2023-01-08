@@ -1,0 +1,329 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #ede9e3;
+}
+
+section {
+	background-color: #d4b2a7;
+}
+
+.hero {
+	background-color: #a38f85;
+	height: 100vh;
+	color: #ede9e3;
+	font-size: 40px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+ul {
+	display: flex;
+	list-style-type: none;
+	width: 500px;
+	justify-content: space-around;
+	font-size: 25px;
+}
+
+li {
+	text-decoration: none;
+}
+
+li a:hover {
+	color: #d4b2a7;
+}
+
+svg:hover {
+	fill: #d4b2a7;
+}
+
+h1 {
+	font-size: 80px;
+	margin: 0;
+}
+
+h2 {
+	font-size: 50px;
+}
+
+p {
+	margin: 0;
+	font-size: 30px;
+	font-weight: 300;
+}
+
+.hero-area {
+	display: flex;
+	height: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.hero-text {
+	margin-left: 80px;
+	margin-bottom: 200px;
+}
+
+.button {
+	display: inline-block;
+	background-color: #cdc6c3;
+	padding: 20px;
+	width: 200px;
+	color: #ede9e3;
+	text-align: center;
+	border-radius: 25px;
+	font-size: 28px;
+	cursor: pointer;
+	margin: 5px;
+	font-weight: 400;
+}
+
+.button:hover {
+	background-color: #d4b2a7;
+	color: #ede9e3;
+}
+
+.button:active {
+	background-color: #d4b2a7;
+	color: #a38f85;
+}
+
+.socials {
+	padding-bottom: 200px;
+}
+
+.logo {
+	height: 120px;
+	margin: 30px;
+}
+
+.social {
+	margin: 50px;
+}
+
+.sub-section {
+	display: flex;
+	justify-content: space-around;
+	padding: 80px;
+}
+
+@media only screen and (max-width:  1000px) {
+	body {
+		justify-content: center;
+	}
+
+	section {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.hero-text {
+	margin-left: 30px;
+	margin-bottom: 200px;
+	}
+
+	h1 {
+		font-size: 70px;
+	}
+
+	.project-container {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.sub-section {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+
+}
+
+.project-card {
+	width: 300px;
+	height: 150px;
+	box-shadow: 5px 5px 20px grey;
+	margin: 10px;
+	align-items: center;
+	align-content: center;
+}
+
+.portfolio-section p {
+	font-size: 20px;
+	/*padding-top: 40px;*/
+}
+
+.under {
+	padding-top: 40px;
+}
+
+.project-card .subtext {
+	font-size: 15px;
+	font-weight: 300;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.project-image {
+	margin-top: 25px;
+	width: 250px;
+	border-radius: 125px;
+}
+
+hr {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.project-link {
+	text-decoration: none;
+	color: #a38f85;
+}
+
+a {
+	text-decoration: none;
+	color: #ede9e3;
+}
+
+.hamburger {
+	display: none;
+}
+
+.hamburger:focus {
+	outline:  0;
+
+}
+
+@media only screen and (max-width:  1000px) {
+	.hamburger {
+		display: block;
+		border: 0;
+		background-color: transparent;
+		color: #ede9e3;
+		font-size: 30px;
+		margin: 20px;
+		align-self: flex-end;
+	}
+
+	ul {
+		display: none;
+		background-color: #d8bbd3;
+		margin: 0px;
+		padding-bottom: 30px;
+	}
+
+	ul.show {
+		display: block;
+	}
+
+	nav {
+		display: flex;
+		flex-direction: column-reverse;
+		background-color: #d8bbd3;
+	}
+
+	.logo {
+		display: none;
+	}
+}
+
+.ego-class {
+	padding-bottom: 25px;
+}
+
+/*In Meditations*/
+
+.meditations-body {
+	background-color: #ede9e3;
+}
+
+.meditations-body li a{
+	color: #a38f85;
+}
+
+.portfolio-section {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 80px;
+}
+
+.project-container {
+	display: flex;
+	justify-content: space-around;
+}
+
+iframe {
+	width: 300px;
+}
+
+/*Mental Health*/
+.women-we-encourage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.women-we-encourage h4 {
+    color: #565a5b;
+    font-size: 30px;
+}
+
+.women-group {
+    width: 450px;
+    width: 40%;
+    box-sizing: border-box;
+    margin-left: 25px;
+    margin-right: 30px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.women-group img {
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+}
+
+.women-group p span {
+    font-weight: bold;
+}
+
+.women-group p {
+	font-size: 20px;
+}
+
+.mh-list li a{
+	color: #a38f85;
+}
+
+
+button {
+	display: inline-block;
+	background-color: #d4b2a7;
+	padding: 10px;
+	width: 150px;
+	color: #ede9e3;
+	text-align: center;
+	border-radius: 25px;
+	font-size: 28px;
+	cursor: pointer;
+	margin: 5px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+button:hover {
+	background-color: #a38f85;
+}
+
+button:active {
+	background-color: #ede9e3;
+}
